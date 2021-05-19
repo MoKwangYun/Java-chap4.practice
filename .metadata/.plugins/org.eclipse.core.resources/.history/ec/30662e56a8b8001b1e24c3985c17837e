@@ -1,0 +1,18 @@
+//øπ¡¶4-6
+public class Rank {
+	int rank;
+	String name;
+	public Rank(int rank, String name) {
+		this.rank = rank;
+		this.name = name;
+	}
+	
+	public static void main(String[] args) {
+		Rank r []= new Rank[3];
+		
+		r[0].name = "±Ë";
+		r[1].name = "¿Ã";
+		r[2].name = "¡§";
+		System.out.println(r[0].name + r[1].name );
+	}
+}

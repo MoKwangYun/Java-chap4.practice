@@ -1,0 +1,29 @@
+
+public class practice5 {
+	String title;
+	String author;
+	
+	void show() {
+		System.out.println("제목 : "+title+" 저자 : "+author);
+	}
+	
+	public  pr() {
+		this("Bible", "alot");
+
+		
+	}
+	
+	public void book(String title,String author) {
+		this.title = title;
+		this.author = author;
+	}
+	
+	public void book(String name) {
+		this.title = title;
+		author = "Unknown";
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}
